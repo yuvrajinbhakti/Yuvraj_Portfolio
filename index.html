@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Personal Portfolio Website</title>
+    <link rel='stylesheet' href='style.css'>
+    <!-- <script src="https://kit.fontawesome.com/b02057e0e3.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/e6b5150484.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- header section -->
+    <div id='header'>
+        <div class='container'>
+            <nav>
+                <img src='images/logo.png' class='logo'>
+                <ul id="sidemenu">
+                    <li><a href='#header'>Home</a></li>
+                    <li><a href='#about'>About</a></li>
+                    <li><a href='#achievements'>Achievements</a></li>
+                    <li><a href='#projects'>Projects</a></li>
+                    <li><a href='#contact'>Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span> Yuvraj Singh </span><br>  from Chitkara University.</h1>
+            </div>
+        </div>
+    </div>
+
+    
+<!-----------------------------------------    About Section  ----------------------------------------------------------------- -->
+<div id="about">
+<div class="container">
+    <div class="row">
+
+        <div class="about-col-1">
+            <img src="images/users.png">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+                Hi, I'm Yuvraj Singh Nain, a dynamic and forward-thinking Full Stack Developer currently immersed in my Bachelors's journey in Computer Science at Chitkara University. My passion lies in not just coding but in sculpting transformative digital solutions that transcend the ordinary. I wield expertise in a diverse tech arsenal, mastering the intricacies of C++, Java, and the entire MERN stack.
+            
+                In my portfolio, you'll find more than just lines of code – you'll discover stories of innovation. Whether it's breathing new life into a car rental website or orchestrating the creation of "MoneyZold," a Flutter app designed for seamless financial management, I thrive on translating ideas into impactful user experiences.
+            <br>
+                The Tata Imagination Challenge 2022 stands as a testament to my problem-solving acumen, propelling me to the semi-finals and placing me in the top 0.1% of participants. My commitment to excellence is reinforced by a HackerRank Software Engineering Certificate, underlining my dedication to industry best practices.
+            <br>
+                Beyond algorithms and data structures, I bring leadership into the mix. My journey on platforms like LeetCode and CodeChef, where I've conquered over 400 challenges, mirrors my dedication to continuous improvement.
+            
+                As we navigate the evolving landscape of technology, I'm eager to collaborate on projects that not only meet expectations but exceed them. Let's embark on a journey of innovation together – where each line of code and every idea brings us closer to building something truly extraordinary!
+            </p>
+            
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')" >Projects</p>
+                <p class="tab-links" onclick="opentab('education')"  >Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>MERN STACK</span><br>Web App Development</li>
+                    <li><span>App Developer</span><br>Building Android apps</li>
+                    <li><span>Problem Solver</span><br>Solving Leetcode Problems </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li>
+                        <span> Care | A Car Rental Website</span><br>August – November 2023
+                       <br>  
+                    </li>
+                    <li>
+                        <span>MoneyZold | A Finance App</span><br>March – July 2023
+                        <br>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li>
+                        <span>Chitkara University, Punjab</span><br>
+                        July 2021 – July 2025<br>
+                        Bachelors Of Engineering (B.E.) – Computer Science (<span>9.25 CGPA</span>)
+                    </li>
+                    <li>
+                        <span>P.M.L. S.D. Public School, Chandigarh</span><br>
+                        June 2020 – June 2021<br>
+                        Class XII (<span>89.2%</span>)
+                    </li>
+                </ul>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-----------------------------------------    Achievements Section  ----------------------------------------------------------------- -->
+
+<div id="achievements">
+    <div class="container">
+        <h1 class="sub-title">My Acievements - Elevating Excellence</h1>
+        <div class="achievements-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Pinnacle of Coding Mastery</h2>
+                <p>
+                    • Conquered 400+ challenges on <a href="https://leetcode.com/yuvrajsinghnain03/" target="_blank"><u>LeetCode</u></a><br>
+                    • <a href="https://www.codechef.com/users/yuvraj_366" target="_blank"><u>CodeChef </u></a> maestro with a stellar 1200+ rating
+                </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-trophy"></i>
+                <h2>Tata Imagination Challenge2022 </h2>
+                <p>
+                    • Top 0.1% nationwide<br>
+                    • Secured a coveted spot in <a href="https://unstop.com/certificate-preview/e571a82c-56ed-4d73-981c-a98f31859596?utm_campaign=site-emails" target="_blank"> <u>Round 3 (Semi-Finals)</u></a> , surpassing 2,29,082 participants
+                </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h2>Elite Software Engineering Certificate</h2>
+                <p>
+                    • Distinction bestowed by <a href="https://www.hackerrank.com/certificates/c93ee98fd3b6" target="_blank"><u>HackerRank Certificate</u></a>, attesting to prowess in software engineering practices
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-----------------------------------------    Projects Section  ----------------------------------------------------------------- -->
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Featured Projects </h1>
+        <div class="work-list">
+            <div style="background-image: url('images/work-1.png'); background-size: cover;" class="work">
+                
+                <div class="layer">
+                    <h3>Care - A Car Rental Website</h3>
+                    <p>Revamped "Care" website for a 20% boost in user engagement. Utilized MERN stack, resulting in a 25% improvement in overall responsiveness. Introduced intuitive features for swift car rental transactions.
+                    </p>
+                    <a href="https://github.com/yuvrajinbhakti/Care-Car-Rental-Website/tree/main" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div style="background-image: url('images/work-2.jpg'); background-size: cover;" class="work">
+               
+                <div class="layer">
+                    <h3>MoneyZold - A Finance App</h3>
+                    <p>
+                        Transformed financial experiences with "MoneyZold" app in Flutter—streamlining credit card bill management and rewards. Achieved a remarkable 30% boost in user satisfaction through intuitive features. Mirrored CRED platform functionalities.
+                    </p>
+                    <a href="https://github.com/yuvrajinbhakti/MoneyZold_Flutter/tree/master" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/work-3.jpg" >
+                <div class="layer">
+                    <h3>Catalog App</h3>
+                    <p>The Catalog App is a dynamic Flutter project designed for efficient collection management on both Android and iOS platforms. With features like user authentication, item addition, and detailed information display, it offers a seamless experience. </p>
+                    <a href="https://github.com/yuvrajinbhakti/Flutter-While-Learning-" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> See More</a>
+    </div>
+    </div>
+
+<!-----------------------------------------    Contact  Section  ----------------------------------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> yuvrajsinghnain03@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 9216703705</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/yuvraj-singh-nain-76715921b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/yuvrajinbhakti/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <!-- <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a> -->
+                </div>
+                <a href="images/yuvraj-cv.pdf" download class="btn btn2">Download My CV </a>
+            </div>
+<div class="contact-right">
+<form name="submit-to-google-sheet">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+    <button type="submit" class="btn btn2">Submit</button>
+</form>
+<span id="msg">
+
+</span>
+</div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Yuvraj. Made with <i class="fas fa-heart"></i> and Creativity </p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks) {tablink.classList.remove("active-link");
+    }
+        for(tabcontent of tabcontents) {tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+sidemeu.style.right="0";
+    }
+    function closemenu(){
+sidemeu.style.right="-200px";
+    }
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxI2AGZ00AjpAo2Q_Z3vH5U2tovKYPvpDOxGrHf9f6Mm_9QzF2BO-_TIbJj2NgXw6_H/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML="Message sent successfully"
+    setTimeout(function(){
+        msg.innerHTML=""
+    },5000)
+    form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
+
+
+<!-- form link 
+
+https://docs.google.com/spreadsheets/d/1D4lBr0WTuEWrkCql7nU0GDjLHUJdn-9cIYH5_RLenIs/edit#gid=0
+
+
+youtube link
+https://www.youtube.com/watch?v=0YFrGy_mzjY
+
+-->
